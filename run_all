@@ -1,0 +1,5 @@
+./run_hf++
+./run_phf_1p
+./run_phf_2p
+./run_btt
+./run_mals_solve

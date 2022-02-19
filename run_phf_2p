@@ -1,0 +1,5 @@
+clear
+rm pht_btt.out
+g++ -std=c++14  -g -o  pht_btt.out PostHartreeFock/Create2ParticleOperator.cc  -lint2 -lpthread -lxerus -lxerus_misc
+
+./pht_btt.out

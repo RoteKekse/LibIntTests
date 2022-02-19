@@ -1,0 +1,5 @@
+clear
+rm solve.out
+clang++ -std=c++11 -g -o  solve.out PostHartreeFock/als_ev.cpp   -lxerus -lxerus_misc
+
+./solve.out

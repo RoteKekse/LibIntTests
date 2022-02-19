@@ -1,0 +1,5 @@
+clear
+rm als_solve_mo.out
+g++ -g -std=c++11 -fext-numeric-literals -DARPACK_LIBRARIES -o als_solve_mo.out PostHartreeFock/als_ev_mo.cpp   -lxerus -lxerus_misc
+
+./als_solve_mo.out

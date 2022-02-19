@@ -1,0 +1,5 @@
+clear
+rm BasisTransform.out
+g++ -std=c++11 -g -o  BasisTransform.out PostHartreeFock/BasisTransform.cpp  -lint2 -lpthread -lxerus -lxerus_misc
+
+./BasisTransform.out

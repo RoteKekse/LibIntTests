@@ -1,0 +1,5 @@
+clear
+rm pht_btt.out
+clang++ -std=c++11 -g -o  pht_btt.out PostHartreeFock/Create1ParticleOperator.cc  -lint2 -lpthread
+
+./pht_btt.out

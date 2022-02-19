@@ -1,0 +1,5 @@
+clear
+rm testbtt.out
+clang++ -std=c++11 -g -o  testbtt.out PostHartreeFock/TestBuildTTOperator_with_sym.cpp  -lint2 -lpthread -lxerus -lxerus_misc
+
+./testbtt.out

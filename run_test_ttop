@@ -1,0 +1,5 @@
+clear
+rm test_ttop.out
+clang++ -std=c++11 -g -o  test_ttop.out PostHartreeFock/TestOperators.cpp  -lint2 -lpthread -lxerus -lxerus_misc
+
+./test_ttop.out

@@ -1,0 +1,5 @@
+clear
+rm hf.out
+clang++ -std=c++11 -o hf.out hartree-fock/hartree-fock.cc  -lint2
+
+./hf.out

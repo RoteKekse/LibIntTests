@@ -1,0 +1,5 @@
+clear
+rm mals_solve.out
+g++-7 -g -std=c++17 -fext-numeric-literals -DARPACK_LIBRARIES -o mals_solve.out PostHartreeFock/mals_ev.cpp   -lxerus -lxerus_misc
+
+./mals_solve.out

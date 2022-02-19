@@ -1,0 +1,5 @@
+clear
+rm als_solve2.out
+g++ -g -std=c++11 -fext-numeric-literals -DARPACK_LIBRARIES -o als_solve2.out PostHartreeFock/als_ev2.cpp   -lxerus -lxerus_misc
+
+./als_solve2.out

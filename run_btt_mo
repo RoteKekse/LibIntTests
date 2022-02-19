@@ -1,0 +1,5 @@
+clear
+rm pht_btt_mo.out
+clang++ -std=c++11 -g -o  pht_btt_mo.out PostHartreeFock/BuildTTOperator_molecular.cpp  -lint2 -lpthread -lxerus -lxerus_misc
+
+./pht_btt_mo.out

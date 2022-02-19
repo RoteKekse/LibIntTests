@@ -1,0 +1,5 @@
+clear
+rm pht_btt.out
+clang++ -std=c++11 -g -o  pht_btt.out PostHartreeFock/BuildTTOperator.cpp  -lint2 -lpthread -lxerus -lxerus_misc
+
+./pht_btt.out
